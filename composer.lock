@@ -1,0 +1,230 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dff7d4db8c49acf3dcac2b558dd9d5dc",
+    "packages": [
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "59495db0b14c17f5a370359df0ad7b2e004391a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/59495db0b14c17f5a370359df0ad7b2e004391a2",
+                "reference": "59495db0b14c17f5a370359df0ad7b2e004391a2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "1.2.*",
+                "friendsofphp/php-cs-fixer": "^2.2",
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "^4.8 || ^5.7",
+                "zendframework/zend-eventmanager": "3.0.*",
+                "zendframework/zend-i18n": "2.7.3",
+                "zendframework/zend-serializer": "2.7.*"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2018-08-02T20:46:56+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "2c2ac3356425e192f7537227508c809a14aa5850"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/2c2ac3356425e192f7537227508c809a14aa5850",
+                "reference": "2c2ac3356425e192f7537227508c809a14aa5850",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "http://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2017-10-04T07:51:34+00:00"
+        },
+        {
+            "name": "xenomorph/xenomorph-models-communication",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mickaelpollet/xenomorph-models-communication.git",
+                "reference": "30c5a46048e603134d084fd331541e2c9ab16ddb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mickaelpollet/xenomorph-models-communication/zipball/30c5a46048e603134d084fd331541e2c9ab16ddb",
+                "reference": "30c5a46048e603134d084fd331541e2c9ab16ddb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "phpmailer/phpmailer": ">=6.0",
+                "xenomorph/xenomorph-system-core": ">=1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "models/",
+                    "models/managers"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mickaël POLLET",
+                    "email": "mickaelpollet@gmail.com"
+                }
+            ],
+            "description": "Xenomorph Communication Models Libraries",
+            "keywords": [
+                "curl",
+                "framework",
+                "ldap",
+                "mail",
+                "notification",
+                "onesignal",
+                "php freamwork",
+                "tools",
+                "xenomorph"
+            ],
+            "time": "2018-05-16T15:39:35+00:00"
+        },
+        {
+            "name": "xenomorph/xenomorph-system-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mickaelpollet/xenomorph-system-core.git",
+                "reference": "d6c50af110d83dc20cdf887e0a1e09b841082ac2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mickaelpollet/xenomorph-system-core/zipball/d6c50af110d83dc20cdf887e0a1e09b841082ac2",
+                "reference": "d6c50af110d83dc20cdf887e0a1e09b841082ac2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "twbs/bootstrap": "^3.3@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "models/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mickaël POLLET",
+                    "email": "mickaelpollet@gmail.com"
+                }
+            ],
+            "description": "Xenomorph's Framework and Libraries Core",
+            "keywords": [
+                "framework",
+                "php freamwork",
+                "xenomorph"
+            ],
+            "time": "2018-05-29T09:43:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "xenomorph/xenomorph-system-core": 20,
+        "xenomorph/xenomorph-models-communication": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

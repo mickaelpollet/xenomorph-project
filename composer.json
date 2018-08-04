@@ -1,0 +1,24 @@
+{
+    "name": "xenomorph/xenomorph-project",
+    "description": "Framework Xenomorph",
+    "keywords": ["php freamwork", "framework", "xenomorph"],
+    "type": "Framework",
+    "require": {
+        "xenomorph/xenomorph-system-core": "dev-master",
+        "xenomorph/xenomorph-models-communication": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mickaël POLLET",
+            "email": "mickaelpollet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "classmap": [
+        "models/"
+      ]
+    },
+    "version": "2.0.0"
+}
