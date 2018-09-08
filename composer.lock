@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "59495db0b14c17f5a370359df0ad7b2e004391a2"
+                "reference": "83faa53556ce2bb84b63a605586a17d2a09b89e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/59495db0b14c17f5a370359df0ad7b2e004391a2",
-                "reference": "59495db0b14c17f5a370359df0ad7b2e004391a2",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/83faa53556ce2bb84b63a605586a17d2a09b89e7",
+                "reference": "83faa53556ce2bb84b63a605586a17d2a09b89e7",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +70,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2018-08-02T20:46:56+00:00"
+            "time": "2018-08-24T15:35:38+00:00"
         },
         {
             "name": "twbs/bootstrap",
@@ -129,12 +129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mickaelpollet/xenomorph-models-communication.git",
-                "reference": "30c5a46048e603134d084fd331541e2c9ab16ddb"
+                "reference": "84541af32a0cfcf5c0a3b5d10a5783c61742e225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mickaelpollet/xenomorph-models-communication/zipball/30c5a46048e603134d084fd331541e2c9ab16ddb",
-                "reference": "30c5a46048e603134d084fd331541e2c9ab16ddb",
+                "url": "https://api.github.com/repos/mickaelpollet/xenomorph-models-communication/zipball/84541af32a0cfcf5c0a3b5d10a5783c61742e225",
+                "reference": "84541af32a0cfcf5c0a3b5d10a5783c61742e225",
                 "shasum": ""
             },
             "require": {
@@ -171,7 +171,7 @@
                 "tools",
                 "xenomorph"
             ],
-            "time": "2018-05-16T15:39:35+00:00"
+            "time": "2018-09-08T13:43:29+00:00"
         },
         {
             "name": "xenomorph/xenomorph-models-cryptography",
@@ -179,18 +179,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mickaelpollet/xenomorph-models-cryptography.git",
-                "reference": "dbfa003f80c6ce177cd90129b8b6ee899e6a9a1c"
+                "reference": "22b0f1a00c776b43dbc795979496352e3a3b3f1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mickaelpollet/xenomorph-models-cryptography/zipball/dbfa003f80c6ce177cd90129b8b6ee899e6a9a1c",
-                "reference": "dbfa003f80c6ce177cd90129b8b6ee899e6a9a1c",
+                "url": "https://api.github.com/repos/mickaelpollet/xenomorph-models-cryptography/zipball/22b0f1a00c776b43dbc795979496352e3a3b3f1a",
+                "reference": "22b0f1a00c776b43dbc795979496352e3a3b3f1a",
                 "shasum": ""
             },
             "require": {
                 "xenomorph/xenomorph-system-core": "dev-master"
             },
             "type": "library",
+            "autoload": {
+                "classmap": [
+                    "models/"
+                ]
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -202,7 +207,12 @@
                 }
             ],
             "description": "Xenomorph's Framework Cryptographic Models",
-            "time": "2018-08-05T08:52:41+00:00"
+            "keywords": [
+                "framework",
+                "php freamwork",
+                "xenomorph"
+            ],
+            "time": "2018-08-05T09:08:42+00:00"
         },
         {
             "name": "xenomorph/xenomorph-system-core",
