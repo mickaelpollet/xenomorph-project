@@ -5,7 +5,8 @@
     "type": "Framework",
     "require": {
         "xenomorph/xenomorph-system-core": "dev-master",
-        "xenomorph/xenomorph-models-communication": "dev-master"
+        "xenomorph/xenomorph-models-communication": "dev-master",
+        "xenomorph/xenomorph-models-cryptography": "dev-master"
     },
     "license": "MIT",
     "authors": [
