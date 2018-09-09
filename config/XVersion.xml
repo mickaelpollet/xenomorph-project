@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<version>
+	<patchnote>
+		<version>2.0.0</version>
+		<date>2018/09/08</date>
+		<content>
+			<framework>
+				<entry type='1' author='MP' date='2018/09/08'>Mise en place des premières pierres de Xenomorph 2.0.0.</entry>
+				<entry type='1' author='MP' date='2018/09/08'>Mise en place de la vérification des dépendances Composer et du répertoire de l'application.</entry>
+				<entry type='1' author='MP' date='2018/09/08'>Mise en place du HTACCESS de référence.</entry>
+				<entry type='2' author='MP' date='2018/09/08'>Modification de la page d'erreurs critiques.</entry>
+				<entry type='2' author='MP' date='2018/09/09'>Modifications majeures du chargement des fichiers de configuration du Framework.</entry>
+				<entry type='1' author='MP' date='2018/09/09'>Ajout de la fonction XDebugger qui gère l'affichage des messages de debug.</entry>
+			</framework>
+		</content>
+	</patchnote>
+</version>

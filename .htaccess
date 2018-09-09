@@ -1,0 +1,19 @@
+####################################
+# Xenomorph Security Configuration
+####################################
+
+# Options
+Options All -Indexes
+
+# Site access
+Allow from 127
+Allow from 10
+Allow from 192
+Allow from ::1
+Deny from all
+
+# htaccess file
+<files .htaccess>
+order allow,deny
+Deny from all
+</files>
